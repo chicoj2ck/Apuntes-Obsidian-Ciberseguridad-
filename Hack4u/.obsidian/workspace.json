@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "e1f82475f0737813",
+    "type": "split",
+    "children": [
+      {
+        "id": "e473d35cf4b8b35b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71ad188c11d354e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción al Hacking/Máquinas/Máquina Presidential.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Máquina Presidential"
+            }
+          },
+          {
+            "id": "e3efedf3a03edd38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción al Hacking/OWASP TOP 10/Abuso de subidas de archivos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Abuso de subidas de archivos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7de663962cae925",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b8ef021e67acf9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a76d64b48c3e8b80",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "ce56f0d17e8e0536",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e847225ec1ba35d8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.5
+  },
+  "right": {
+    "id": "89ce4531842c0415",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c091901a042e372",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8022a1bbfb40cee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hack4u/Hacking Web/XSS/Expert/Escape de sandbox AngularJS sin cadenas 1;2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Escape de sandbox AngularJS sin cadenas 1;2"
+            }
+          },
+          {
+            "id": "139c157c45fb643d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hack4u/Hacking Web/XSS/Expert/Escape de sandbox AngularJS sin cadenas 1;2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Escape de sandbox AngularJS sin cadenas 1;2"
+            }
+          },
+          {
+            "id": "e8c98b5497674c8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "288a5c71be42ec17",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hack4u/Hacking Web/XSS/Expert/Escape de sandbox AngularJS sin cadenas 1;2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Escape de sandbox AngularJS sin cadenas 1;2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "a76d64b48c3e8b80",
+  "lastOpenFiles": [
+    "Introducción al Hacking/Máquinas/Máquina Infovore.md",
+    "Introducción al Hacking/Máquinas/Máquina IMF.md",
+    "Introducción al Hacking/OWASP TOP 10/XML External Entity Injection (XXE).md",
+    "Introducción al Hacking/OWASP TOP 10/Abuso de subidas de archivos.md",
+    "Introducción al Hacking/OWASP TOP 10/Ataque de Deserialización.md",
+    "Introducción al Hacking/Técnicas de escalada de privilegios/Docker Breakout.md",
+    "Introducción al Hacking/OWASP TOP 10/Ataque Type Juggling.md",
+    "Introducción al Hacking/OWASP TOP 10/SQL Injection (SQLI).md",
+    "Introducción al Hacking/Máquinas/Máquina Presidential.md",
+    "Introducción al Hacking/Material Adicional/Pivoting.md",
+    "Untitled 1",
+    "Untitled",
+    "Introducción al Hacking/Máquinas/Máquina CASINO ROYALE.md",
+    "Introducción al Hacking/Máquinas/Máquina Symfonos.md",
+    "Introducción al Hacking/Reporte y redacción de informes/Reporte y redacción de  informes.md",
+    "Pasted image 20251118230239.png",
+    "Pasted image 20251118230107.png",
+    "Preparación eCPPT.drawio.png",
+    "Introducción al Hacking/Material Adicional/Introducción a SQLMap.md",
+    "Introducción al Hacking/Reporte y redacción de informes",
+    "Introducción al Hacking/Material Adicional/Introducción a Metasploit.md",
+    "Introducción al Hacking/Material Adicional/Material Adicional.md",
+    "INACAP CTF/INCAP CTF.md",
+    "Introducción al Hacking/Material Adicional",
+    "INACAP CTF",
+    "Introducción al Hacking/Máquinas/Máquinas.md",
+    "Pasted image 20250828153112.png",
+    "Pasted image 20251019000017 - copia.png",
+    "Pasted image 20251018234639 - copia.png",
+    "Pasted image 20251018192429 - copia.png",
+    "Pasted image 20251018191149 - copia.png",
+    "Pasted image 20251018184559 - copia.png",
+    "Pasted image 20251018182740 - copia.png",
+    "Introducción al Hacking/Buffer Overflow/Búsqueda de OpCodes para entrar al ESP y cargar nuestro Shellcode.md",
+    "Introducción al Hacking/Buffer Overflow/Buffer Overflow.md",
+    "Introducción al Hacking/Buffer Overflow/Asignación de espacio para el Shellcode.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
+    "Untitled.md",
+    "Introducción al Hacking/Buffer Overflow/Fase inicial de Fuzzing y tomando el control del registro EIP.md",
+    "Introducción al Hacking/Máquinas",
+    "Introducción al Hacking/Buffer Overflow",
+    "Introducción al Hacking/Técnicas de escalada de privilegios",
+    "Introducción al Hacking/OWASP TOP 10",
+    "Hacking Web/CSRF - XSRF"
+  ]
+}

@@ -1,0 +1,38 @@
+___
+- tags: #owasp #index 
+___
+- [[SQL Injection (SQLI)]].
+- [[XSS - Cross-site Scripting 1-2]].
+- [[XML External Entity Injection (XXE)]].
+- [[LFI - Local File Inclusión]].
+- [[RFI - Remote File Exclusion]].
+- [[Log Poisoning]].
+- [[CSRF - Cross-Site Request Forgery (CSRF)]].
+- [[SSRF - Server-Side Request Forgery]].
+- [[SSTI - Server-Side Template Injection]].
+- [[CSTI - Clien-Side Template Injection]].
+- [[Padding Oracle Attack]].
+- [[Ataque Type Juggling]].
+- [[NoSQL Injection]].
+- [[LDAP - Lightweight Directory  Access Protocol]].
+- [[Ataque de Deserialización]].
+- [[Latex Injection]].
+- [[Abuso de APIs]].
+- [[Prototype Pollution]].
+- [[AXFR - Ataques de transferencia de zona]].
+- [[Ataques de asignación masiva (Mass-Asignment Attack) - Parameter Binding]].
+- [[Open Redirect]].
+- [[WebDAV - Enumeración y explotación de WebDAV]].
+- [[SQUID Proxies - Enumeración y explotación]].
+- [[ShellShock]].
+- [[XPath Injection]].
+- [[IDORs]].
+- [[CORS - Intercambio de recursos de origen cruzado (CORS)]].
+- [[Ataque de Truncado SQL (SQL Truncation)]].
+- [[Session Puzzling - Session Fixation - Session Variable Overloading]].
+- [[JWT (Json Web Token) - Enumeración y explotación de Json Web Tokens (JWT)]].
+- [[Race Condition - Condiciones de carrera]].
+- [[Inyecciones CSS (CSSI)]].
+- [[Python – Ataque de Deserialización Yaml (DES-Yaml)]].
+- [[Python – Ataque de Deserialización Pickle (DES-Pickle)]].
+- [[GraphQL Introspection, Mutations e IDORs]].

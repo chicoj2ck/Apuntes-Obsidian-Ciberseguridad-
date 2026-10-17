@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9c8fd6855f2a3781",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb154c4a875d3b89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef84307bb440262c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbd595c1288a794a",
+    "type": "split",
+    "children": [
+      {
+        "id": "490b77c4052cdb3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f3ef965094a599a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "37fab6d02f5c5eba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bd65b9a4be43c968",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "52b49630fac0044c",
+    "type": "split",
+    "children": [
+      {
+        "id": "971c37b880b901b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc42a67eb7726435",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "55577b4c5390dcbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "721b7e17807a4f11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7617d4e924b8a1be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "5f3ef965094a599a",
+  "lastOpenFiles": [
+    "Other Modules.md",
+    "Pasted image 20250924215716.png",
+    "Pasted image 20250924215404.png",
+    "Pasted image 20250905225424.png",
+    "Pasted image 20250902010321.png",
+    "Pasted image 20250831174317.png",
+    "Pasted image 20250829020709.png",
+    "Paths/Junior Penetration Tester/Burp Suite/Other Modules - Burp Suite/The Extension Interface.md",
+    "Paths/Junior Penetration Tester/Network Security",
+    "Paths/Junior Penetration Tester/Burp Suite/Other Modules - Burp Suite/Other Modules - BurpSuite.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Other Modules - Burp Suite/Decoder - Burp Suite.md",
+    "Untitled.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Intruder - Burp Suite.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/The Basics.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Introduction to the Burp Proxy.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Features of Burp Community.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Introduction to Attack Types.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Other Modules - Burp Suite",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Sniper.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Untitled.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Payloads.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/Positions.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite/What is Intruder.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Repeater - Burp Suite/Burp Suite - Repeater.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Repeater - Burp Suite/Basic Usage.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Repeater - Burp Suite/What is a Repeater.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/What is Burp Suite.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/The Dashboard.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Scoping and Targeting.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Proxying HTTPS.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Options.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/Navigation.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Intruder - Burp Suite",
+    "Paths/Junior Penetration Tester/Burp Suite/Repeater - Burp Suite",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics/The Burp Suite Browser.md",
+    "Paths/Junior Penetration Tester/Burp Suite/Burp Suite - The Basics",
+    "Paths/Junior Penetration Tester/Burp Suite",
+    "Paths/Junior Penetration Tester/Introduction to Web Hacking/Untitled",
+    "Paths/Junior Penetration Tester/Introduction to Web Hacking/SQLi",
+    "Paths/Junior Penetration Tester/Introduction to Web Hacking/Command Injectiton",
+    "Paths/Junior Penetration Tester/Introduction to Web Hacking/Race Conditions",
+    "Pasted image 20250905024525.png",
+    "Pasted image 20250905023707.png"
+  ]
+}
