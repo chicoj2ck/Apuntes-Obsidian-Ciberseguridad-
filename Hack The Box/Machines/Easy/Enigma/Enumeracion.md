@@ -206,3 +206,47 @@ nmap -p22,80,110,111,143,993,995,2049,38619,40939,46623,51893,57361 -sCV -vvv --
 - nginx : nginx/1.24
 - email: support@enigma.htb
 ### Informacion pagina web
+- email: support@enigma.htb 
+## NFS
+
+### Network File System
+Son Archivos compartidos a traves de la red
+
+### Exploracion
+```sh
+showmount -e 10.129.136.128
+
+# Response
+Export list for 10.129.136.128:
+/srv/nfs/onboarding *
+```
+
+### Nos traemos la carpeta montandola
+```sh
+sudo mount -t nfs 10.129.136.128:/srv/nfs/onboarding /home/chicoj2ck/Desktop/hack-the-box/Easy/Enigma/content/onboarding
+```
+
+Y dentro hay un pdf  `New_Employee_Access.pdf`
+
+####  Informacion del PDF
+- Nombre: Kevin Mitchell
+- Web: http://mail001.enigma.htb/
+- username: kevin
+- pass: Enigma2024!
+
+
+- correo de soporte nuevo: it@enigma.htb
+
+
+### Dentro del imbox de Kevin
+listado de correos encontrados:
+- sara@enigma.htb
+  
+  
+Probamos reautilizar la contraseña...
+
+### Correo de Sarah
+- web: [http://support_001.enigma.htb](http://support_001.enigma.htb)
+- username: admin
+- pass: Ne3s4rtars78s
+
