@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack The Box/Machines/Easy/TwoMillion/Contenido.md",
+                "file": "Hack The Box/Machines/Easy/Enigma/Enumeracion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contenido"
+              "title": "Enumeracion"
             }
           }
         ]
@@ -184,8 +184,11 @@
   },
   "active": "cd778d7aeba0627c",
   "lastOpenFiles": [
-    "Hack The Box/Machines/Easy/TwoMillion/Enumeracion.md",
     "Hack The Box/Machines/Easy/TwoMillion/Contenido.md",
+    "Hack The Box/Machines/Easy/Enigma/Enumeracion.md",
+    "Hack The Box/Machines/Easy/Enigma",
+    "Hack The Box/Machines/Easy/Sin título.md",
+    "Hack The Box/Machines/Easy/TwoMillion/Enumeracion.md",
     "Hack4u/Introducción al Hacking/Técnicas de escalada de privilegios/Abusando de privilegios a nivel de Sudoers.md",
     "Hack4u/Introducción al Hacking/Técnicas de escalada de privilegios/Abusando de privilegios SUID.md",
     "Hack4u/Introducción al Hacking/Técnicas de escalada de privilegios/Técnicas de escalada de privilegios.md",
@@ -212,8 +215,6 @@
     "Hack4u/Introducción al Hacking/OWASP TOP 10/CORS - Intercambio de recursos de origen cruzado (CORS).md",
     "Hack4u/Introducción al Hacking/OWASP TOP 10/Open Redirect.md",
     "Hack4u/Introducción al Hacking/OWASP TOP 10/XSS - Cross-site Scripting 1-2.md",
-    "Hack4u/Introducción al Hacking/OWASP TOP 10/OWASP TOP 10.md",
-    "Hack4u/Introducción al Hacking/OWASP TOP 10/SSRF - Server-Side Request Forgery.md",
-    "Hack4u/Introducción al Hacking/OWASP TOP 10/SQL Injection (SQLI).md"
+    "Hack4u/Introducción al Hacking/OWASP TOP 10/OWASP TOP 10.md"
   ]
 }
